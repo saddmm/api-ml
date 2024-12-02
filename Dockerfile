@@ -6,7 +6,7 @@ RUN npm install
 
 COPY . .
 
-ENV HOST=0.0.0.0
+
 ENV PORT=8080
 ENV MODEL_URL=https://storage.googleapis.com/themodels/model/model.json
 ENV PROJECT_ID=submissionmlgc-saddam
